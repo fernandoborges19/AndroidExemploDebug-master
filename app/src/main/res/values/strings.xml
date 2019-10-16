@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Exemplo Debug</string>
+    <string name="txtTelefone">Informe seu Telefone</string>
+    <string name="txtNome">Informe seu nome</string>
+    <string name="btnExibir">Adicionar</string>
+    <string name="txtNomeList">Digite seu nome:</string>
+    <string name="txtEmail">Digite seu email:</string>
+    <string name="txtNomeAluno">Digite o nome do aluno:</string>
+    <string name="txtNota1">Informe a nota 1:</string>
+    <string name="txtNota2">Informe a nota 2:</string>
+    <string name="txtNota3">Informe a nota 3:</string>
+</resources>

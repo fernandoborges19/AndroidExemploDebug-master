@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/txtNomeAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/txtNomeAluno" />
+
+    <EditText
+        android:id="@+id/txtNota1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="@string/txtNota1" />
+
+    <EditText
+        android:id="@+id/txtNota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="@string/txtNota2" />
+
+    <EditText
+        android:id="@+id/txtNota3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="@string/txtNota3" />
+
+    <Button
+        android:id="@+id/btnAddAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="AdicionarAluno"
+        android:text="Adicionar" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
